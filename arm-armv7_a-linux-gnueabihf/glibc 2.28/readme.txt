@@ -4,6 +4,6 @@ gcc 6.5.0
 
 with-arch = armv7-a
 with-cpu = not set
-with-tune = nnot set
+with-tune = not set
 with-fpu = neon
 with-float = hard

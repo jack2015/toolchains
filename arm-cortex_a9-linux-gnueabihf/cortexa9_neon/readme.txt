@@ -5,5 +5,9 @@ glibc 2.25
 gcc 6.3.0
 
 with-cpu = cortex-a9
+[with-arch = armv7-a]
+[with-tune = cortex-a9]
 with-fpu = neon
 with-float = hard
+
+with-mode = arm

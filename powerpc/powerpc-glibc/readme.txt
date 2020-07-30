@@ -1,9 +1,7 @@
 build pc = i686
 
-
-with-cpu = 405
-with-float = soft
+Dbox2 / Dreambox DM500 and DM500-S
 
 gcc version 3.4.4
-glibc 2.3.2
-linux Kernel 2.6.9
+glibc 2.3.3
+with-float = soft

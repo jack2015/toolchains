@@ -1,12 +1,10 @@
-build pc = x86_64
-GCC_VERSION = 4.8.3-linaro
+::::::::::: build pc = x86_64 ::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::
 
-LIBC_TYPE = uClibc
+gcc 4.8.3
+uClibc 0.9.33.2
 
+with-float = soft
 
-LIBC_VERSION = 0.9.33.2
-
-
-
-with-float=soft
-disable-decimal-float
+big-endian
+32bit

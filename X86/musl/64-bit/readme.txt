@@ -5,5 +5,5 @@ gcc version = 7.5.0
 linux version = 4.4.214
 binutils 2.34
 
-arch = x86
+with-arch = not set
 64-bit

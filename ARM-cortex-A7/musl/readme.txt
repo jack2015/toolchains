@@ -1,6 +1,8 @@
 :::::::::::::build_pc = x86_64 :::::::::::::::
+mediatek - mt7623
 CPU_TYPE:=cortex-a7
 CPU_SUBTYPE:=neon-vfpv4
+::::::::::::::::::::::::::::::::::::::::::::::
 
 linux 4.1.49
 musl 1.1.16
